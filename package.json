@@ -1,0 +1,21 @@
+{
+  "name": "checkers-master",
+  "version": "1.1.0",
+  "description": "checkers game",
+  "main": "server/index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ejs": "^2.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"git+https://github.com/debrhaj/CIS197Project/checkers"
+  },
+  "author": "japhet",
+  "license": "MIT"
+}

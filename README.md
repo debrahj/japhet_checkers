@@ -2,7 +2,7 @@
 
 ## Connecting to it
 Setup to the checkers room by running npm install after downloading everything.
-Connect to the game room by opening port 3000.
+Connect to the game room by running node server.
 
 ## Using It
 Play by selecting your piece and clicking on the tile you want to move to. Click [here](http://www.itsyourturn.com/t_helptopic2030.html) to learn how to play checkers. Jumping when available is enforced.
@@ -13,4 +13,5 @@ The code supports all the features of checkers including kingship and double/tri
 
 
 ## Live Demo
-[DEMO](http://github.com/debrahj/japhet_checkers/index.html)
+Run node server
+[DEMO](localhost:3000)

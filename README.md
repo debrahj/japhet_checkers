@@ -1,6 +1,6 @@
 # Checkers
 
-##Connecting to it
+## Connecting to it
 Setup to the checkers room by running npm install after downloading everything.
 Connect to the game room by opening port 3000.
 

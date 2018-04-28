@@ -25,9 +25,6 @@ window.onload = function() {
   var pieces = [];
   var tiles = []; 
   
-  //Generate room name
-  var rroom = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-
   //distance formula
   var dist = function (x1, y1, x2, y2) {
     return Math.sqrt(Math.pow((x1-x2),2)+Math.pow((y1-y2),2));
@@ -332,6 +329,7 @@ window.onload = function() {
       "name": name,
       "msg": $("#msg").val()
     });
+    $("#msg").val('');
   });
 
   //After sending message to the server, we'll have to wire up the event for it.

@@ -13,4 +13,6 @@ The code supports all the features of checkers including kingship and double/tri
 
 
 ## Live Demo
-First run node server__[DEMO](http://localhost:3000)
+First run node server
+
+[DEMO](http://localhost:3000)
